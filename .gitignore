@@ -1,0 +1,79 @@
+# 📦 Maven
+target/
+*.jar
+*.war
+*.ear
+
+# 🌐 IDE и редакторы
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+*~
+
+# 📊 Логи и временные файлы
+logs/
+*.log
+hs_err_pid*
+replay_pid*
+
+# 📂 Конфигурации
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+.env
+
+# 🔒 Чувствительные данные
+*.key
+*.pem
+*.crt
+secrets.env
+
+# 📜 Системные файлы
+Thumbs.db
+.DS_Store
+*.class
+*.ctxt
+
+# 🚀 Операционные системы
+*.tmp
+*.bak
+*.swp
+*~
+
+# 🧪 Тесты
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# 🐳 Docker
+docker-compose.override.yml
+.dockerignore
+
+# 🚀 Spring Boot Specific
+spring.log
+
+# 📝 Build tools
+maven-wrapper.jar
+/.mvn/
+mvnw
+mvnw.cmd
+
+# 📚 Dependency Management
+dependency-reduced-pom.xml
+
+# 📁 Кэш
+*.cache
+*.gradle
+
+# 📸 Инструменты CI/CD
+.circleci/
+.gitlab-ci.yml
+.github/
+
+# 🚨 Исключения
+!README.md
+!src/main/resources/
